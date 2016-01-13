@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAEB13B71C463FB10067C88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB13B61C463FB10067C88B /* main.m */; };
+		DAEB13BA1C463FB20067C88B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB13B91C463FB20067C88B /* AppDelegate.m */; };
+		DAEB13BD1C463FB20067C88B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB13BC1C463FB20067C88B /* ViewController.m */; };
+		DAEB13C01C463FB20067C88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEB13BE1C463FB20067C88B /* Main.storyboard */; };
+		DAEB13C21C463FB20067C88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEB13C11C463FB20067C88B /* Assets.xcassets */; };
+		DAEB13C51C463FB20067C88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEB13C31C463FB20067C88B /* LaunchScreen.storyboard */; };
+		DAEB13D51C464C250067C88B /* ZZTimeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEB13D41C464C250067C88B /* ZZTimeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAEB13B21C463FB10067C88B /* ZZTimeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTimeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEB13B61C463FB10067C88B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAEB13B81C463FB20067C88B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAEB13B91C463FB20067C88B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAEB13BB1C463FB20067C88B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAEB13BC1C463FB20067C88B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAEB13BF1C463FB20067C88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAEB13C11C463FB20067C88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAEB13C41C463FB20067C88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAEB13C61C463FB20067C88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEB13D31C464C250067C88B /* ZZTimeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTimeButton.h; sourceTree = "<group>"; };
+		DAEB13D41C464C250067C88B /* ZZTimeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTimeButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAEB13AF1C463FB10067C88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAEB13A91C463FB10067C88B = {
+			isa = PBXGroup;
+			children = (
+				DAEB13B41C463FB10067C88B /* ZZTimeButton */,
+				DAEB13B31C463FB10067C88B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAEB13B31C463FB10067C88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB13B21C463FB10067C88B /* ZZTimeButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAEB13B41C463FB10067C88B /* ZZTimeButton */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB13B81C463FB20067C88B /* AppDelegate.h */,
+				DAEB13B91C463FB20067C88B /* AppDelegate.m */,
+				DAEB13BB1C463FB20067C88B /* ViewController.h */,
+				DAEB13BC1C463FB20067C88B /* ViewController.m */,
+				DAEB13BE1C463FB20067C88B /* Main.storyboard */,
+				DAEB13D21C464C250067C88B /* ZZTimeButton */,
+				DAEB13C11C463FB20067C88B /* Assets.xcassets */,
+				DAEB13C31C463FB20067C88B /* LaunchScreen.storyboard */,
+				DAEB13C61C463FB20067C88B /* Info.plist */,
+				DAEB13B51C463FB10067C88B /* Supporting Files */,
+			);
+			path = ZZTimeButton;
+			sourceTree = "<group>";
+		};
+		DAEB13B51C463FB10067C88B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB13B61C463FB10067C88B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAEB13D21C464C250067C88B /* ZZTimeButton */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB13D31C464C250067C88B /* ZZTimeButton.h */,
+				DAEB13D41C464C250067C88B /* ZZTimeButton.m */,
+			);
+			path = ZZTimeButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAEB13B11C463FB10067C88B /* ZZTimeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEB13C91C463FB20067C88B /* Build configuration list for PBXNativeTarget "ZZTimeButton" */;
+			buildPhases = (
+				DAEB13AE1C463FB10067C88B /* Sources */,
+				DAEB13AF1C463FB10067C88B /* Frameworks */,
+				DAEB13B01C463FB10067C88B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTimeButton;
+			productName = ZZTimeButton;
+			productReference = DAEB13B21C463FB10067C88B /* ZZTimeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAEB13AA1C463FB10067C88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiuWeiZhen;
+				TargetAttributes = {
+					DAEB13B11C463FB10067C88B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DAEB13AD1C463FB10067C88B /* Build configuration list for PBXProject "ZZTimeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAEB13A91C463FB10067C88B;
+			productRefGroup = DAEB13B31C463FB10067C88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEB13B11C463FB10067C88B /* ZZTimeButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEB13B01C463FB10067C88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEB13C51C463FB20067C88B /* LaunchScreen.storyboard in Resources */,
+				DAEB13C21C463FB20067C88B /* Assets.xcassets in Resources */,
+				DAEB13C01C463FB20067C88B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAEB13AE1C463FB10067C88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEB13D51C464C250067C88B /* ZZTimeButton.m in Sources */,
+				DAEB13BD1C463FB20067C88B /* ViewController.m in Sources */,
+				DAEB13BA1C463FB20067C88B /* AppDelegate.m in Sources */,
+				DAEB13B71C463FB10067C88B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAEB13BE1C463FB20067C88B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEB13BF1C463FB20067C88B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAEB13C31C463FB20067C88B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEB13C41C463FB20067C88B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAEB13C71C463FB20067C88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAEB13C81C463FB20067C88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAEB13CA1C463FB20067C88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZTimeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhen.ZZTimeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAEB13CB1C463FB20067C88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZTimeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weizhen.ZZTimeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAEB13AD1C463FB10067C88B /* Build configuration list for PBXProject "ZZTimeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEB13C71C463FB20067C88B /* Debug */,
+				DAEB13C81C463FB20067C88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEB13C91C463FB20067C88B /* Build configuration list for PBXNativeTarget "ZZTimeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEB13CA1C463FB20067C88B /* Debug */,
+				DAEB13CB1C463FB20067C88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAEB13AA1C463FB10067C88B /* Project object */;
+}

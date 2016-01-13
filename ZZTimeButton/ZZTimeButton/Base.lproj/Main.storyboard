@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lO6-GB-8na">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cz6-Sl-rBd" customClass="ZZTimeButton">
+                                <rect key="frame" x="232" y="279" width="137" height="41"/>
+                                <color key="backgroundColor" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="137" id="eHE-md-FgC"/>
+                                    <constraint firstAttribute="height" constant="41" id="hvT-8F-uli"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="获取验证码">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getVerifyCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfs-9X-CPh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cz6-Sl-rBd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Coo-a3-Lmp"/>
+                            <constraint firstItem="cz6-Sl-rBd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hoB-0e-WUV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="36O-Qm-YgP"/>
+                    <connections>
+                        <outlet property="timeButton" destination="cz6-Sl-rBd" id="arL-cB-6hb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1750" y="299"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9EY-Im-r35">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lO6-GB-8na" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y5N-fd-KBO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VsB-bi-fof" kind="relationship" relationship="rootViewController" id="mvZ-in-Txm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Sc-id-gJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="154"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c21-K6-Wka">
+            <objects>
+                <viewController id="VsB-bi-fof" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8hT-EP-hv1"/>
+                        <viewControllerLayoutGuide type="bottom" id="bWe-rf-qKr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GDo-Hi-P1h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMU-7W-T5g">
+                                <rect key="frame" x="246" y="279" width="109" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="7jE-kP-ejX"/>
+                                    <constraint firstAttribute="width" constant="109" id="98Z-JQ-FRb"/>
+                                </constraints>
+                                <state key="normal" title="测试"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ymk-19-PL0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BMU-7W-T5g" firstAttribute="centerY" secondItem="GDo-Hi-P1h" secondAttribute="centerY" id="J6n-7r-uD5"/>
+                            <constraint firstItem="BMU-7W-T5g" firstAttribute="centerX" secondItem="GDo-Hi-P1h" secondAttribute="centerX" id="KDF-HQ-KkA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="elq-Vc-p74"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7kT-UJ-6Kn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895" y="154"/>
+        </scene>
+    </scenes>
+</document>
